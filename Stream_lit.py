@@ -505,7 +505,7 @@ def main():
     st.sidebar.header("Input Data")
 
     # Set the dark theme
-    set_theme()
+    #set_theme()
 
     #set_parameter=st.sidebar.button("Set parameters", type="secondary")
 

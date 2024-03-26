@@ -34,40 +34,41 @@ conda activate KOSTRA_Euler
 ```
 To install the necessary python packages, use the following commands:
 
-1. **pandas**: Provides data structures and data analysis tools.
-    ```bash
-    pip install pandas
-    ```
-
-2. **geopandas**: Extends the datatypes used by pandas to allow spatial operations on geometric types.
-    ```bash
-    pip install geopandas
-    ```
-
-3. **streamlit**: Allows for the creation of interactive web apps with simple Python scripts.
-    ```bash
-    pip install streamlit
-    ```
-
-4. **folium**: Provides tools for creating interactive maps.
-    ```bash
-    pip install folium
-    ```
-
-5. **streamlit_folium**: Integrates Folium maps into Streamlit apps.
-    ```bash
-    pip install streamlit_folium
-    ```
-
-6. **numpy**: Provides support for large, multi-dimensional arrays and matrices, along with a large collection of mathematical functions to operate on these arrays.
+1. **numpy**: Provides support for large, multi-dimensional arrays and matrices, along with a large collection of mathematical functions to operate on these arrays.
     ```bash
     pip install numpy
     ```
 
-7. **matplotlib**: Provides plotting functionality.
+2. **pandas**: Provides data structures and data analysis tools.
+    ```bash
+    conda install anaconda::pandas
+    ```
+3. **matplotlib**: Provides plotting functionality.
     ```bash
     pip install matplotlib
     ```
+
+4. **geopandas**: Extends the datatypes used by pandas to allow spatial operations on geometric types.
+    ```bash
+    pip install geopandas
+    ```
+
+5. **streamlit**: Allows for the creation of interactive web apps with simple Python scripts.
+    ```bash
+    pip install streamlit
+    ```
+
+6. **folium**: Provides tools for creating interactive maps.
+    ```bash
+    pip install folium
+    ```
+
+7. **streamlit_folium**: Integrates Folium maps into Streamlit apps.
+    ```bash
+    pip install streamlit_folium
+    ```
+
+
 
 8. **pyproj**: Provides Python interfaces to PROJ (cartographic projections and coordinate transformations library).
     ```bash
